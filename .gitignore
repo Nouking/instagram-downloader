@@ -10,16 +10,34 @@ downloads/
 # Configuration files with sensitive data
 cookies.conf
 
+# Instagram data files
+*.json
+working_*.txt
+extracted_*.txt
+media_data_*.json
+
+# Sample data
+video_graplph_demo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
 # Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
 .eggs/
 lib/
@@ -60,21 +78,6 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Temporary files
-*.tmp
-*.temp
-*.log
-*.cache
-
-# Instagram data files
-*.json
-working_*.txt
-extracted_*.txt
-media_data_*.json
-
 # Documentation drafts (keep only final versions)
 *_CONCEPT.md
 *_STORY.md
-
-# Sample data
-video_graplph_demo
