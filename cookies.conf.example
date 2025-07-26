@@ -1,0 +1,25 @@
+# Instagram Cookie Configuration - EXAMPLE TEMPLATE
+# Copy this file to cookies.conf and fill in your actual values
+
+# Target Instagram username (without @)
+username = target_username_here
+
+# Instagram Cookies (get these from your browser)
+# 1. Open Instagram in browser and login
+# 2. Press F12 → Application/Storage → Cookies → https://www.instagram.com
+# 3. Copy the values for these cookies:
+
+sessionid = your_session_id_here
+csrftoken = your_csrf_token_here
+ds_user_id = your_user_id_here
+
+# Optional: Additional cookies (if needed)
+# mid = your_mid_value
+# ig_did = your_ig_did_value
+# rur = your_rur_value
+
+# Video Download Settings
+download_videos = true
+download_images = true
+video_quality = highest
+max_video_size_mb = 50
